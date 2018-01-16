@@ -5,16 +5,17 @@
  */
 package hellogit;
 
-/**
- *
- * @author Student
- */
+import java.util.Scanner;
+
 public class HelloGit {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Input Your Name : ");
+        String name = input.nextLine();
         System.out.println("Hello World");
     }
     
